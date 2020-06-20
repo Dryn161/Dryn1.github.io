@@ -1,0 +1,73 @@
+td,
+th,
+table {
+    border: 1px solid #000000;
+}
+
+table {
+    width: 1000px;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 4px;
+}
+
+td {
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    padding: 70px;
+}
+
+.moz,
+.op,
+.saf,
+.ie9,
+.ie10,
+.ie11,
+.ed,
+.cr_yan {
+    background-color: #ffff00;
+}
+
+_::-moz-progress-bar,
+body:last-child .moz {
+    background: #008000;
+}
+
+:root .ie9 {
+    background: #008000 \0/
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    .ie10 {
+        background: #008000;
+    }
+}
+
+_:-ms-fullscreen,
+ :root .ie11 {
+    background: #008000;
+}
+
+_::-moz-svg-foreign-content,
+ :root .saf {
+    background: #008000;
+}
+
+_:-o-prefocus,
+body:last-child .op {
+    background: #008000;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) {
+    .cr_yan {
+        background: #008000;
+    }
+}
+
+_:-ms-lang(x),
+_:-webkit-full-screen,
+.ed {
+    background: #008000;
+}
